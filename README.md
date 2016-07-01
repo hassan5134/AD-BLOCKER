@@ -27,8 +27,13 @@ https://github.com/HassanChiang/AD-BLOCKER/blob/master/releases/AD-BLOCKER.crx?r
 
 这种方式，每次打开浏览器，会提示你停用开发者模式，用起来有点麻烦。
 
+
+原理很简单，就是在页面加载完成后，使用jQuery选择器，删除广告。
+广告选择器保存在：https://github.com/HassanChiang/AD-BLOCKER/blob/master/api/selector.json
+这样插件就不需要频繁更新，每次更新这个广告选择器列表就可以了。
+
 PS：
-有要去广告的页面，欢迎issue。3Q~
+有要去广告的页面，欢迎issue，大家一起来啊。3Q~
 
 License: 
 
