@@ -8,13 +8,13 @@
 
 直接下载就好了：
 
-https://github.com/HassanChiang/AD-BLOCKER/blob/master/Tutorial/1.png
+![image](https://github.com/HassanChiang/AD-BLOCKER/blob/master/Tutorial/1.png）
 
 然后解压缩。
 
 最后进入Chrome应用程序管理界面：
 
-https://github.com/HassanChiang/AD-BLOCKER/blob/master/Tutorial/2.png
+![image](https://github.com/HassanChiang/AD-BLOCKER/blob/master/Tutorial/2.png）
 
 按顺序操作完就好了。
 
