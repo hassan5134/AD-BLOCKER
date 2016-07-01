@@ -13,15 +13,23 @@ function clear_ad(){
 }
 
 function clear_float_ad(){
-	$("div[id^='BAIDU_SSP']").remove();
-	$("div[id^='BAIDU_DUP']").remove();
-	$("div[id^='BAIDU_DSPUI']").remove();
-	$("div[id^='__QQCP']").remove();
-	$("div[id^='__CPF_popup__']").remove();
-	$("div[id^='tanxssp_']").remove();
-	$("div[id^='__QY_CP']").remove();
-	$("iframe[onload^='BAIDU_SSP']").remove();
-	
+	$.getJSON("",function (result){
+		var data = eval("(" + result + ')');
+		for (var i = 0; i < data.length ; i++) {
+			var selector = data[i];
+			$(selector).remove();
+		};
+	});
+
+	// $("div[id^='BAIDU_SSP']").remove();
+	// $("div[id^='BAIDU_DUP']").remove();
+	// $("div[id^='BAIDU_DSPUI']").remove();
+	// $("div[id^='__QQCP']").remove();
+	// $("div[id^='__CPF_popup__']").remove();
+	// $("div[id^='tanxssp_']").remove();
+	// $("div[id^='__QY_CP']").remove();
+	// $("iframe[onload^='BAIDU_SSP']").remove();
+	// $("[class='adsbygoogle']").remove();	
 }
 
 setInterval(function (){
