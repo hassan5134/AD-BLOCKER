@@ -1,9 +1,13 @@
-div[id^='BAIDU_SSP']
-div[id^='BAIDU_DUP']
-div[id^='BAIDU_DSPUI']
-div[id^='__QQCP']
-div[id^='__CPF_popup__']
-div[id^='tanxssp_']
-div[id^='__QY_CP']
-iframe[onload^='BAIDU_SSP']
-[class='adsbygoogle']
+{
+    "data": [
+        "div[id^='BAIDU_SSP']",
+        "div[id^='BAIDU_DUP']",
+        "div[id^='BAIDU_DSPUI']",
+        "div[id^='__QQCP']",
+        "div[id^='__CPF_popup__']",
+        "div[id^='tanxssp_']",
+        "div[id^='__QY_CP']",
+        "iframe[onload^='BAIDU_SSP']",
+        "[class='adsbygoogle']"
+    ]
+}
