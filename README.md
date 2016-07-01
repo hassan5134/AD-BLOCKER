@@ -5,7 +5,15 @@
 
 使用：
 
-**第一种方式：**
+
+**第一种方式（推荐）：**
+
+直接下载:
+https://github.com/HassanChiang/AD-BLOCKER/blob/master/releases/AD-BLOCKER.crx
+
+
+**第二种方式：**
+
 
 下载文件夹：
 
@@ -19,12 +27,6 @@
 
 按顺序操作完就好了。
 
-**第二种方式：**
-
-直接下载:
-https://github.com/HassanChiang/AD-BLOCKER/blob/master/releases/AD-BLOCKER.crx
-
-进入Chrome应用程序管理界面，把crx文件拖进浏览器。
 
 有要去广告的页面，欢迎issue。3Q~
 
