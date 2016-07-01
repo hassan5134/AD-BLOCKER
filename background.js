@@ -27,6 +27,7 @@ function do_clear(){
 
 function clear_float_ad(){
 	if(data.length == 0){
+		//其实这个data缓存在网速慢的情况下（超过1.5秒），会失效的。
 		$.getJSON("https://raw.githubusercontent.com/HassanChiang/AD-BLOCKER/master/api/selector.json",function (result){
 			data = result.data;
 			console.log("从API获取到选择器列表：")
@@ -45,6 +46,10 @@ setInterval(function (){
 setTimeout(function (){
 	clear_float_ad();
 }, 1500);
+
+setTimeout(function (){
+	clear_float_ad();
+}, 3000);
 
 
 $("#kw").keyup(function (){
