@@ -19,6 +19,9 @@ function clear_float_ad(){
 	$("div[id^='__QQCP']").remove();
 	$("div[id^='__CPF_popup__']").remove();
 	$("div[id^='tanxssp_']").remove();
+	$("div[id^='__QY_CP']").remove();
+	$("iframe[onload^='BAIDU_SSP']").remove();
+	
 }
 
 setInterval(function (){
