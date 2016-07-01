@@ -27,3 +27,7 @@ https://github.com/HassanChiang/AD-BLOCKER/blob/master/releases/AD-BLOCKER.crx
 进入Chrome应用程序管理界面，把crx文件拖进浏览器。
 
 有要去广告的页面，欢迎issue。3Q~
+
+<a href="http://www.wtfpl.net/"><img
+       src="http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png"
+       width="80" height="15" alt="WTFPL" /></a>
