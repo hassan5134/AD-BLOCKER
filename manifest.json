@@ -1,0 +1,17 @@
+{
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_title": "Block AD"
+   },
+   "content_scripts": [ {
+      "js": [ "jquery.min.js", "background.js" ],
+      "matches": [ "https://*/*" , "http://*/*"],
+      "run_at": "document_end"
+   } ],
+   "description": "Block AD",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7ca6VvEWXMN/fHoHK0BsGHwlCQtAVW7mLH//DV7rLXa/aRzwnu/ZTj4xRxu+Lc7ffAVadFj6Pdzg9enMMC+VwuJI+041cVHzqv2069n9L59MvgIRXf7PvJUkenGP13pnDAeHTQf6S8x4WKRaRN5tM1GxHbX6NMWJWbXam2jUomMyjKaZh7FZC2t61HOrvkFZbJr6lwqmW2jJoF9i7CXFTAOlz/rrfQHcgk+eQQmFKnDQzPMqxfZ4oHbaW1Aw3baKxt9oXtOrTSfiA/6b4at2pf7aI/cY8INb9pcZ1KJHz357gyVjPQknjzwjoYp5eH6nemejKAcRBvT7Q7BhfsEtdwIDAQAB",
+   "manifest_version": 2,
+   "name": "Block AD",
+   "permissions": [ "webNavigation", "activeTab", "tabs", "https://*.baidu.com/*" ],
+   "version": "1.0"
+}
