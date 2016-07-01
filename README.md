@@ -5,15 +5,13 @@
 
 使用：
 
-
 **第一种方式（推荐）：**
 
 直接下载:
 https://github.com/HassanChiang/AD-BLOCKER/blob/master/releases/AD-BLOCKER.crx
-
+进入Chrome应用程序管理界面，把crx文件拖进浏览器。
 
 **第二种方式：**
-
 
 下载文件夹：
 
@@ -27,7 +25,9 @@ https://github.com/HassanChiang/AD-BLOCKER/blob/master/releases/AD-BLOCKER.crx
 
 按顺序操作完就好了。
 
+这种方式，每次打开浏览器，会提示你停用开发者模式，用起来有点麻烦。
 
+PS：
 有要去广告的页面，欢迎issue。3Q~
 
 License: 
