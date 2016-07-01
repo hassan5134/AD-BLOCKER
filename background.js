@@ -1,4 +1,7 @@
-
+/*
+	Author: Hassan
+	Email : hassan.chiang@gmail.com
+*/
 function clear_search_result_ad(){
 	if (window.location.href.indexOf('baidu.com')>0) {
 		$("#content_left>div").each(function (){
