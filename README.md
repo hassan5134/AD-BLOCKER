@@ -22,6 +22,6 @@
 **第二种方式：**
 
 直接下载:
-https://github.com/HassanChiang/AD-BLOCKER/blob/master/releases/AD_BLOCKER.crx
+https://github.com/HassanChiang/AD-BLOCKER/blob/master/releases/AD-BLOCKER.crx
 
 进入Chrome应用程序管理界面，把crx文件拖进浏览器。
