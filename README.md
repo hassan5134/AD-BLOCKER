@@ -1,7 +1,4 @@
-这只是一个简陋的Chrome去广告插件~ :smirk:
-
-但是你可以自己按照喜欢的方式来去掉广告，只要你会使用JavaScript，自己修改background.js文件就好了。
-（也就是人肉去广告。哈哈~）
+这只是一个Chrome去广告插件~ :smirk:
 
 使用：
 
@@ -12,6 +9,9 @@ https://github.com/HassanChiang/AD-BLOCKER/blob/master/releases/AD-BLOCKER.crx?r
 进入Chrome应用程序管理界面，把crx文件拖进浏览器。
 
 **第二种方式：**
+
+这种方式，你可以自己按照喜欢的方式来去掉广告，只要你会使用JavaScript，自己修改background.js文件就好了。
+（也就是人肉去广告。哈哈~）
 
 下载文件夹：
 
