@@ -9,6 +9,7 @@
         "div[id^='__QY_CP']",
         "iframe[onload^='BAIDU_SSP']",
         "[class='adsbygoogle']",
-        "div[class^='ad-widget']"
+        "div[class^='ad-widget']",
+        "div[id^='IZADX_']"
     ]
 }
