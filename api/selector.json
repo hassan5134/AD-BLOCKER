@@ -10,6 +10,7 @@
         "iframe[onload^='BAIDU_SSP']",
         "[class='adsbygoogle']",
         "div[class^='ad-widget']",
-        "div[id^='IZADX_']"
+        "div[id^='IZADX_']",
+        "div[id='ShowDIV_UNION']"
     ]
 }
