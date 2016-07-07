@@ -8,7 +8,7 @@
         "div[id^='tanxssp_']",
         "div[id^='__QY_CP']",
         "iframe[onload^='BAIDU_SSP']",
-        "iframe[id^='cpro_u']",
+        "div[id^='cpro_u']",
         "[class='adsbygoogle']",
         "div[class^='ad-widget']",
         "div[id^='IZADX_']",
