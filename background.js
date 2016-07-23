@@ -13,11 +13,6 @@ function clear_search_result_ad(){
 		var domainSelectorMap = se.split("||");
 		if(domainSelectorMap.length >= 2){
 			if(window.location.href.indexOf(domainSelectorMap[0])>0)	{
-				var a = $(domainSelectorMap[1]);
-				if(a.length >0){
-					a.remove();
-					console.log("删除了节点：" + a.text());
-				}
 				$(domainSelectorMap[1]).each(function (){
 					var $this = $(this);
 					if($this.text().indexOf("商业推广") >= 0){
