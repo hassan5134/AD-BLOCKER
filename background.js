@@ -42,37 +42,12 @@ function clear_float_ad(){
 	}
 }
 
-//用最笨的方法来实现...
-setInterval(function (){
+$(document).bind('DOMSubtreeModified', function () {
 	clear_search_result_ad();
-}, 1000);
-
-setTimeout(function (){
 	clear_float_ad();
-}, 1500);// 1.5秒来一次
-
-setTimeout(function (){
-	clear_float_ad();
-}, 3000);// 3秒来一次，因为有些广告异步加载很慢，所以再补上一发
-
-setTimeout(function (){
-	clear_float_ad();
-}, 5000);// 5秒来一次，如果还清除不掉，这网速确实很渣了。。。。
-
-$("#kw").keyup(function (){
-	clear_search_result_ad();
 });
 
 $(document).ready(function (){
 	clear_search_result_ad();
 	clear_float_ad();
-});
-
-
-$("#container").change(function (){
-	clear_search_result_ad();
-});
-
-$("body").change(function (){
-	clear_search_result_ad();
 });
