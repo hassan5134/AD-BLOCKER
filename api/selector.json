@@ -12,6 +12,8 @@
         "[class='adsbygoogle']",
         "div[class^='ad-widget']",
         "div[id^='IZADX_']",
-        "div[id='ShowDIV_UNION']"
+        "div[id='ShowDIV_UNION']",
+        "ins[data-ad-pdps]"
+        
     ]
 }
