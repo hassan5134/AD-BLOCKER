@@ -47,7 +47,7 @@ $(document).ready(function () {
 		console.log("从API获取到选择器列表：")
 		console.log(data);
 		$.getJSON("https://raw.githubusercontent.com/HassanChiang/AD-BLOCKER/master/api/se-selector.json",function (result2){
-			seData = result.data;
+			seData = result2.data;
 			console.log("从API获取需要清除的搜索结果列表：")
 			console.log(seData);
 			
