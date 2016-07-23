@@ -11,8 +11,9 @@ function clear_search_result_ad(){
 				console.log("删除了节点：" + $this.text());
 			}
 		});
-		console.log("触发一次清理...");
-	};	
+	} else if(window.location.href.indexOf('www.so.com')>0)	{
+		$("#m-spread-left").remove();
+	}
 }
 
 var data = [];//保持api获取到的需要清除的广告选择器列表
