@@ -16,7 +16,7 @@ function clear_search_result_ad(){
 				var a = $(domainSelectorMap[1]);
 				if(a.length >0){
 					a.remove();
-					console.log("删除了节点：" + $this.text());
+					console.log("删除了节点：" + a.text());
 				}
 				$(domainSelectorMap[1]).each(function (){
 					var $this = $(this);
