@@ -17,6 +17,7 @@
         "#jdAdBox",
         "#turn-ad",
         "div[id^='TurnAD']",
-        "sohuadcode"
+        "sohuadcode",
+        "iframe[onload^='document.sogou_ads1_loaded']"
     ]
 }
