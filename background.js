@@ -15,6 +15,7 @@ function clear_search_result_ad(){
 		var a = $("#m-spread-left");
 		if(a.length >0){
 			a.remove();
+			console.log("删除了节点：" + $this.text());
 		}
 	}
 }
