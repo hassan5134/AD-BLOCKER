@@ -17,7 +17,7 @@ function clear_search_result_ad(){
 
 var data = [];//保持api获取到的需要清除的广告选择器列表
 
-function do_clear(){
+function clear_float_ad(){
 	for (var i = 0; i < data.length ; i++) {
 		var selector = data[i];
 		var tmp = $(selector);
@@ -28,21 +28,16 @@ function do_clear(){
 	};
 }
 
-function clear_float_ad(){
-	if(data.length == 0){
-		//其实这个data缓存在网速慢的情况下（超过1.5秒），会失效的。
-		$.getJSON("https://raw.githubusercontent.com/HassanChiang/AD-BLOCKER/master/api/selector.json",function (result){
-			data = result.data;
-			console.log("从API获取到选择器列表：")
-			console.log(data);
-			do_clear();
+$(document).ready(function () {
+	$.getJSON("https://raw.githubusercontent.com/HassanChiang/AD-BLOCKER/master/api/selector.json",function (result){
+		data = result.data;
+		console.log("从API获取到选择器列表：")
+		console.log(data);
+		clear_search_result_ad();
+		clear_float_ad();
+		$(document).bind('DOMSubtreeModified', function () {
+			clear_search_result_ad();
+			clear_float_ad();
 		});
-	} else {
-		do_clear();
-	}
-}
-
-$(document).bind('DOMSubtreeModified', function () {
-	clear_search_result_ad();
-	clear_float_ad();
+	});
 });
