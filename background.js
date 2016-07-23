@@ -46,8 +46,3 @@ $(document).bind('DOMSubtreeModified', function () {
 	clear_search_result_ad();
 	clear_float_ad();
 });
-
-$(document).ready(function (){
-	clear_search_result_ad();
-	clear_float_ad();
-});
