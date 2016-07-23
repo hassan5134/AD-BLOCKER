@@ -12,7 +12,10 @@ function clear_search_result_ad(){
 			}
 		});
 	} else if(window.location.href.indexOf('www.so.com')>0)	{
-		$("#m-spread-left").remove();
+		var a = $("#m-spread-left");
+		if(a.length >0){
+			a.remove();
+		}
 	}
 }
 
