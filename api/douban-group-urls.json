@@ -20,5 +20,6 @@
     "(●'◡'●)",
     "走过路过不要错过"  
   ],
-  "randomTimes":200
+  "randomTimes":200,
+  "commentEndUrl":"/?start=0#last"
 }
