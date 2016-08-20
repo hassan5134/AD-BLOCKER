@@ -1,8 +1,8 @@
 {
-  "data":[
+  "urls":[
     "https://www.douban.com/group/topic/89889244"
   ],
-  "data2":[
+  "comments":[
     "up~",
     "up~ 顶~",
     "up~ 顶~ 顶起。。。",
@@ -19,5 +19,6 @@
     "顶起~~~",
     "(●'◡'●)",
     "走过路过不要错过"  
-  ]
+  ],
+  "randomTimes":200
 }
