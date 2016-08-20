@@ -1,6 +1,6 @@
 {
   "urls":[
-    "https://www.douban.com/group/topic/89889244"
+    "https://www.douban.com/group/topic/89692224/"
   ],
   "comments":[
     "up~",
@@ -21,5 +21,5 @@
     "走过路过不要错过"  
   ],
   "randomTimes":200,
-  "commentEndUrl":"/?start=10000000#last"
+  "commentEndUrl":"?start=10000000#last"
 }
