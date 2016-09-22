@@ -15,7 +15,7 @@ function clear_search_result_ad(){
 			if(window.location.href.indexOf(domainSelectorMap[0])>0)	{
 				$(domainSelectorMap[1]).each(function (){
 					var $this = $(this);
-					if($this.text().indexOf("商业推广") >= 0){
+					if($this.text().replace(/\s/g,"").indexOf("-广告") >= 0){
 						$this.remove();
 						console.log("删除了节点：" + $this.text());
 					}
